@@ -1,0 +1,24 @@
+import { HStack, Box,Flex,Button } from '@chakra-ui/react'
+
+export const App = () => {
+  return <Flex w="100%" py={22}>
+    <HStack>
+      <Box fontSize="20px"  w="280px" px={22}>My Company</Box>
+    </HStack>
+    <HStack spacing="10"   px={170}>
+     
+      <Box >
+        Figma Plugin
+      </Box>
+      <Box  >
+        Figma Kit
+      </Box>
+      <Box >
+        Home
+      </Box>
+      <Button colorScheme='teal' size='lg'>
+    Start for free
+  </Button>
+    </HStack>
+    </Flex>
+}
